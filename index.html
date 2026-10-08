@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Abhay Mishra</title>
+
+
+  <!-- GOOGLE FONTS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- THREE JS -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+ <!--------------------------css-------------------->
+<link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+
+<body>
+
+
+  <!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+  <nav>
+
+    <div class="wrap">
+
+      <div class="brand">
+        Abhay<span>Mishra</span>
+      </div>
+
+      <div class="navlinks">
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#education">Education</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#contact">Contact</a>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+  <!-- =========================================================
+     HERO
+========================================================= -->
+
+  <section class="hero">
+
+
+    <!-- THREE JS -->
+
+    <canvas id="hero-canvas"></canvas>
+
+
+    <div class="hero-glow"></div>
+
+
+
+    <div class="hero-content">
+
+
+      <!-- TEXT -->
+
+      <div class="hero-text">
+
+        <div class="eyebrow">
+          Hi, I'm Abhay
+        </div>
+
+
+        <h1>
+
+          Building
+
+          <span class="gradient">
+            digital experiences
+          </span>
+
+          for the web.
+
+        </h1>
+
+
+        <p class="hero-description">
+
+          I’m a second-year BCA student who enjoys learning
+          how technology works and turning ideas into something
+          useful. I like exploring new concepts, working on
+          personal projects, and improving my problem-solving
+          skills through practical experience.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="btn primary">
+            Explore my work
+          </a>
+
+
+          <a href="#contact" class="btn">
+            Let's connect →
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================================
+         3D PHOTO SCENE
+    ====================================================== -->
+
+      <div class="photo-scene" id="photoScene">
+
+
+        <!-- 3D RINGS -->
+
+        <div class="ring one"></div>
+
+        <div class="ring two"></div>
+
+        <div class="ring three"></div>
+
+
+
+        <!-- ORBS -->
+
+        <div class="orb one"></div>
+
+        <div class="orb two"></div>
+
+        <div class="orb three"></div>
+
+
+
+        <!-- PHOTO -->
+
+        <div class="photo-card" id="photoCard">
+
+          <div class="photo-inner">
+
+            <img src="IMG-20260625-WA0033 (1).jpg" alt="Abhay Mishra">
+
+            <div class="photo-shine"></div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- FLOATING BADGES -->
+
+        <div class="float-badge badge-html">
+          <span>&lt;/&gt;</span> HTML
+        </div>
+
+
+        <div class="float-badge badge-css">
+          <span>#</span> CSS
+        </div>
+
+
+        <div class="float-badge badge-js">
+          <span>JS</span> JavaScript
+        </div>
+
+
+        <div class="float-badge badge-cpp">
+          <span>C++</span> Code
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+    <div class="scroll">
+
+      <div class="scroll-line"></div>
+
+      scroll
+
+    </div>
+
+
+  </section>
+
+
+
+  <!-- =========================================================
+     ABOUT
+========================================================= -->
+
+  <section id="about">
+
+    <div class="wrap">
+
+
+      <div class="section-index">
+        01 — ABOUT
+      </div>
+
+
+      <h2 class="section-title">
+        A bit about me
+      </h2>
+
+
+      <p class="section-description">
+
+        I’m a creative learner with an interest in web development,
+        front-end design, graphic design, and programming. I enjoy
+        building clean, interactive websites and solving problems
+        by turning ideas into practical and visually appealing designs.
+
+        <br><br>
+
+        Right now, I’m focused on improving my skills in HTML, CSS,
+        JavaScript, C, and C++, while working on real-world web
+        projects and exploring new ways to combine design with technology.
+
+      </p>
+
+
+
+      <div class="glass-grid">
+
+
+        <div class="glass-card">
+
+          <h3>
+            5+
+          </h3>
+
+          <p>
+            Projects built
+          </p>
+
+        </div>
+
+
+        <div class="glass-card">
+
+          <h3>
+            1.5
+          </h3>
+
+          <p>
+            Years of experience
+          </p>
+
+        </div>
+
+
+        <div class="glass-card">
+
+          <h3>
+            10
+          </h3>
+
+          <p>
+            Technologies explored
+          </p>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================================================
+     SKILLS
+========================================================= -->
+
+  <section id="skills">
+
+    <div class="wrap">
+
+
+      <div class="section-index">
+        02 — SKILLS
+      </div>
+
+
+      <h2 class="section-title">
+        What I work with
+      </h2>
+
+
+
+      <div class="skills-grid">
+
+
+        <div class="skill">
+
+          <div class="skill-name">
+            HTML
+          </div>
+
+          <div class="skill-bar">
+            <span style="width:90%"></span>
+          </div>
+
+          <div class="skill-percent">
+            90%
+          </div>
+
+        </div>
+
+
+
+        <div class="skill">
+
+          <div class="skill-name">
+            JavaScript
+          </div>
+
+          <div class="skill-bar">
+            <span style="width:80%"></span>
+          </div>
+
+          <div class="skill-percent">
+            80%
+          </div>
+
+        </div>
+
+
+
+        <div class="skill">
+
+          <div class="skill-name">
+            CSS
+          </div>
+
+          <div class="skill-bar">
+            <span style="width:75%"></span>
+          </div>
+
+          <div class="skill-percent">
+            75%
+          </div>
+
+        </div>
+
+
+
+        <div class="skill">
+
+          <div class="skill-name">
+            Python
+          </div>
+
+          <div class="skill-bar">
+            <span style="width:60%"></span>
+          </div>
+
+          <div class="skill-percent">
+            60%
+          </div>
+
+        </div>
+
+
+
+        <div class="skill">
+
+          <div class="skill-name">
+            Git & GitHub
+          </div>
+
+          <div class="skill-bar">
+            <span style="width:65%"></span>
+          </div>
+
+          <div class="skill-percent">
+            65%
+          </div>
+
+        </div>
+
+
+
+        <div class="skill">
+
+          <div class="skill-name">
+            C++
+          </div>
+
+          <div class="skill-bar">
+            <span style="width:55%"></span>
+          </div>
+
+          <div class="skill-percent">
+            55%
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================================================
+     EDUCATION
+========================================================= -->
+
+  <section id="education">
+
+    <div class="wrap">
+
+
+      <div class="section-index">
+        03 — EDUCATION
+      </div>
+
+
+      <h2 class="section-title">
+        Where I studied
+      </h2>
+
+
+
+      <div class="timeline">
+
+
+        <div class="timeline-item">
+
+          <div class="period">
+            2025 - Present
+          </div>
+
+          <h3>
+            Bachelor of Computer Application, Computer Science
+          </h3>
+
+          <div class="org">
+
+            Kanpur Institute of Technology /
+            Dr. A.P.J. Abdul Kalam Technical University
+
+          </div>
+
+          <p>
+
+            Currently pursuing my Bachelor of Computer Applications
+            (BCA) from Dr. A.P.J. Abdul Kalam Technical University
+            (AKTU), with a focus on building a strong foundation
+            in computer science and practical technology skills.
+
+          </p>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+          <div class="period">
+            2024 - 2025
+          </div>
+
+          <h3>
+            Higher Secondary (12th)
+          </h3>
+
+          <div class="org">
+            S S K Inter College
+          </div>
+
+          <p>
+
+            Physics, Chemistry, Biology, English & Hindi -
+            85%. Secured Second Position in the entire college.
+
+          </p>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+          <div class="period">
+            2022 - 2023
+          </div>
+
+          <h3>
+            Secondary (10th)
+          </h3>
+
+          <div class="org">
+            S K B S Inter College
+          </div>
+
+          <p>
+
+            Mathematics, Science, Social Science, English,
+            Hindi & Sanskrit - 91%. Secured Second Position
+            in the entire college.
+
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================================================
+     PROJECTS
+========================================================= -->
+
+  <section id="projects">
+
+    <div class="wrap">
+
+
+      <div class="section-index">
+        04 — PROJECTS
+      </div>
+
+
+      <h2 class="section-title">
+        Things I've built
+      </h2>
+
+
+
+      <div class="projects">
+
+
+        <!-- PROJECT 1 -->
+
+        <div class="project">
+
+          <h3>
+            Attendance Tracker
+          </h3>
+
+          <p>
+
+            Track your daily college attendance and set a target
+            attendance percentage. The tracker calculates how many
+            upcoming classes you need to attend to reach your desired
+            percentage and how many classes you can safely miss.
+
+          </p>
+
+
+          <div class="tags">
+
+            <span class="tag">
+              HTML
+            </span>
+
+            <span class="tag">
+              CSS
+            </span>
+
+            <span class="tag">
+              JavaScript
+            </span>
+
+          </div>
+
+
+          <a href="https://abhay4911.github.io/Attendance-Tracker/" target="_blank" class="project-link">
+            View project →
+          </a>
+
+        </div>
+
+
+
+        <!-- PROJECT 2 -->
+
+        <div class="project">
+
+          <h3>
+            Midnight Moles
+          </h3>
+
+          <p>
+
+            A simple interactive game built using only
+            HTML and CSS.
+
+          </p>
+
+
+          <div class="tags">
+
+            <span class="tag">
+              HTML
+            </span>
+
+            <span class="tag">
+              CSS
+            </span>
+
+          </div>
+
+
+          <a href="https://abhay4911.github.io/Game/" target="_blank" class="project-link">
+            View project →
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================================================
+     CONTACT
+========================================================= -->
+
+  <section id="contact">
+
+    <div class="wrap">
+
+      <div class="contact-box">
+
+        <h2>
+          Let's build something together.
+        </h2>
+
+
+        <div class="contact-links">
+
+
+          <a href="mailto:mr.abhaymishra1009@gmail.com?subject=Contact%20Me&body=Hello%20Abhay," class="btn primary">
+            Email me
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/abhay4911/" target="_blank" class="btn">
+            LinkedIn
+          </a>
+
+
+          <a href="https://github.com/Abhay4911" target="_blank" class="btn">
+            GitHub
+          </a>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- 3D BACK TO TOP BUTTON -->
+
+  <a href="#top" class="back-to-top" id="backToTop">
+
+    <span class="top-ring"></span>
+
+    <span class="top-arrow">↑</span>
+
+    <span class="top-text">TOP</span>
+
+  </a>
+
+
+
+  <!-- =========================================================
+     FOOTER
+========================================================= -->
+
+  <footer>
+    © 2026 Abhay Mishra.
+  </footer>
+  <script src="portfolio.js"></script>
+</body>
+
+</html>
